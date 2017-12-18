@@ -3,8 +3,12 @@
  * ------------------------------------- */
 // Google fonts
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import url('https://fonts.googleapis.com/css?family=Lato:900');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900');
 $base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Raleway", "Helvetica", "sans-serif";
+$header-font: "PT+Sans+Caption", "400";
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -17,7 +21,7 @@ $header-font: "Raleway", "Helvetica", "sans-serif";
 // $my-font: "Font Name";
 
 // Font-size and line-height
-$base-size: 16px;
+$base-size: 15px;
 $base-height: 1.4;
 
 /* -------------------------------------

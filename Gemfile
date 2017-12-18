@@ -42,6 +42,7 @@ gem 'autoprefixer-rails'
 gem 'geocoder'
 gem 'simple_form'
 gem 'carrierwave'
+gem 'compass-rails'
 
 
 
