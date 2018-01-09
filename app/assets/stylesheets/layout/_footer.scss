@@ -1,3 +1,22 @@
-.footer {
-  width: 100%;
+
+  .footer {
+    display: block;
+    width: 100%;
+    background: white;
+    position: relative;
+    clear: both;
+}
+
+.footer-social {
+    color: #aaa;
+    font-style: normal;
+    font-size: 13px;
+    width: 29px;
+    padding-right: 7px;
+    display: inline-block;
+}
+
+.terms {
+  text-align: center;
+  padding: 0px;
 }

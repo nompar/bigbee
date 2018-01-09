@@ -1,63 +1,82 @@
 <div class="content-wrapper">
+
   <div class="content-table">
+
     <div class="preview">
+
       <div class="phone">
-        <%= image_tag "iphonex@2x.png", :class => "iphone" %>
-      </div>
-    </div>
-    <div class="download">
+
+        <%= image_tag "iphonevide.png", :class => "iphone" %>
+
+        <div class="carousel slide" id="slider" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active"></li>
+            <li data-target="#slider" data-slide-to="1"></li>
+            <li data-target="#slider" data-slide-to="2"></li>
+            <li data-target="#slider" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <%= image_tag "screen1.png", :class => "screen" %>
+            </div>
+            <div class="item">
+              <%= image_tag "screen2.png", :class => "screen" %>
+              <div class="carousel-caption">
+                <div class="circle">
+                  <span class="border-animation ba1"></span>
+                  <span class="border-animation ba2"></span>
+
+                </div>
+                </div>
+              </div>
+            <div class="item">
+              <%= image_tag "screen3.png", :class => "screen" %>
+            </div>
+            <div class="item">
+              <%= image_tag "screen4.png", :class => "screen" %>
+            </div>
+          </div>
+
+            <!-- <a class="carousel-control" href="#slider" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="carousel-control" href="#slider" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a> -->
+        </div>
+     </div>
+   </div>
+
+
+     <div class="download">
       <%= image_tag "logofin1@2x.png", :class => "logo" %>
       <%= image_tag "Connect2.png", :class => "logo1" %>
-      <!-- <div class="download-btn">
-        <a href="" class="btn-medium">
-          <img class="icon" src="apple_logo.png">
-        </a>
-      </div>
-
-      <div class="download-btn">
-        <a href="" class="btn-medium">
-          <img class="icon" src="android_logo.png">
-        </a>
-      </div> -->
-    </div>
-  </div>
-</div>
-
-<div class="content-wrapper1">
-  <div class="content-table1">
-    <div class="preview1">
-      <h3 class="slogan2">What if you could send messages to anyplace you want ...</h3>
 
 
-      <div class="phone1">
-        <%= image_tag "iphone4.png", :class => "style_image1" %>
-        <div class="circle">
-            <span class="border-animation ba1"></span>
+        <div class="btn">
+          <img class="icon" src="assets/apple_logo.png">
+          Iphone
         </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-
-<div class="content-wrapper2">
-  <div class="content-table1">
-    <div class="preview1">
-      <div class="phone2">
-        <%= image_tag "iphone3@2x.png", :class => "style_image2" %>
-      </div>
-      <h3 class="slogan3">... and get personal answers from people who are there ?</h3>
-
+        <div class="btn">
+          <img class="icon" src="assets/android_logo1.png">
+          Android
+        </div>
 
     </div>
-  </div>
-</div>
-
-<div class="content-wrapper">
-  <div class="content-table1">
 
   </div>
 </div>
+
+<script>
+  $(function(){
+    $
+
+
+  })
+</script>
+
 
 
 
